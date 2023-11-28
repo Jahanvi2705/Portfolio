@@ -1,0 +1,502 @@
+body {
+    background: #fff;
+    color: #666666;
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    color: #2dc997;
+    text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #2dca98;
+    outline: none;
+    text-decoration: none;
+}
+
+p {
+    padding: 0;
+    font-size: 12px;
+    margin: 0 0 30px 0;
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 0 0px 0 0;
+    padding: 0;
+}
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+section {
+    overflow: hidden;
+    margin: auto;
+}
+
+.services .description {
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+/* Sections Header
+  --------------------------------*/
+.section-header .section-title {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 00;
+    margin-bottom: 44px;
+    margin-top: -25px;;
+}
+
+.section-header .section-description {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #999;
+}
+
+/*plumbing*/
+#plumbing {
+    background: #fff;
+    padding: 42px 0 50px 0;
+}
+
+#plumbing .box {
+    padding: 36px 19px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 2px solid #7b7a7a;
+    height: 200px;
+    position: relative;
+    background: #fafafa;
+}
+
+#plumbing .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: #2dc997;
+}
+
+#plumbing .icon a {
+    display: inline-block;
+}
+
+#plumbing .icon i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+}
+
+#plumbing .box:hover .icon {
+    background: #fff;
+    border: 2px solid #2dc997;
+}
+
+/*electricalwork*/
+#electric {
+    background: #fff;
+    padding: 42px 0 50px 0;
+}
+
+#electric .box {
+    padding: 36px 19px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 2px solid #7b7a7a;
+    height: 200px;
+    position: relative;
+    background: #fafafa;
+}
+
+#electric .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: #2dc997;
+}
+
+#electric .icon a {
+    display: inline-block;
+}
+
+#electric .icon i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+}
+
+#electrick .box:hover .icon {
+    background: #fff;
+    border: 2px solid #2dc997;
+}
+
+/*carpentory*/
+#carpentory {
+    background: #fff;
+    padding: 42px 0 50px 0;
+}
+
+#carpentory .box {
+    padding: 36px 19px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 2px solid #7b7a7a;
+    height: 200px;
+    position: relative;
+    background: #fafafa;
+}
+
+#carpentory .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: #2dc997;
+}
+
+#carpentory .icon a {
+    display: inline-block;
+}
+
+#carpentory .icon i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+}
+
+#carpentory .box:hover .icon {
+    background: #fff;
+    border: 2px solid #2dc997;
+}
+
+/*eventmanagement*/
+#event {
+    background: #fff;
+    padding: 42px 0 50px 0;
+}
+
+#event .box {
+    padding: 36px 19px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 2px solid #7b7a7a;
+    height: 200px;
+    position: relative;
+    background: #fafafa;
+}
+
+#event .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: #2dc997;
+}
+
+#event .icon a {
+    display: inline-block;
+}
+
+#event .icon i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+}
+
+#event .box:hover .icon {
+    background: #fff;
+    border: 2px solid #2dc997;
+}
+
+/*beautycare*/
+#beautycare {
+    background: #fff;
+    padding: 42px 0 50px 0;
+}
+
+#beautycare .box {
+    padding: 36px 19px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 2px solid #7b7a7a;
+    height: 200px;
+    position: relative;
+    background: #fafafa;
+}
+
+#beautycare .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: #2dc997;
+}
+
+#beautycare .icon a {
+    display: inline-block;
+}
+
+#beautycare .icon i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+}
+
+#beautycare .box:hover .icon {
+    background: #fff;
+    border: 2px solid #2dc997;
+}
+
+/*securityguard*/
+#securityguard {
+    background: #fff;
+    padding: 42px 0 50px 0;
+}
+
+#securityguard .box {
+    padding: 36px 19px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 2px solid #7b7a7a;
+    height: 200px;
+    position: relative;
+    background: #fafafa;
+}
+
+#securityguard .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: #2dc997;
+}
+
+#securityguard .icon a {
+    display: inline-block;
+}
+
+#securityguard .icon i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+}
+
+#securityguard .box:hover .icon {
+    background: #fff;
+    border: 2px solid #2dc997;
+}
+
+/*automobile*/
+#automobile {
+    background: #fff;
+    padding: 42px 0 50px 0;
+}
+
+#automobile .box {
+    padding: 36px 19px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 2px solid #7b7a7a;
+    height: 200px;
+    position: relative;
+    background: #fafafa;
+}
+
+#automobile .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: #2dc997;
+}
+
+#automobile .icon a {
+    display: inline-block;
+}
+
+#automobile .icon i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+}
+
+#automobile .box:hover .icon {
+    background: #fff;
+    border: 2px solid #2dc997;
+}
+
+/*cleaning*/
+#cleaning {
+    background: #fff;
+    padding: 42px 0 50px 0;
+}
+
+#cleaning .box {
+    padding: 36px 19px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 2px solid #7b7a7a;
+    height: 200px;
+    position: relative;
+    background: #fafafa;
+}
+
+#cleaning .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: #2dc997;
+}
+
+#cleaning .icon a {
+    display: inline-block;
+}
+
+#cleaning .icon i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+}
+
+#cleaning .box:hover .icon {
+    background: #fff;
+    border: 2px solid #2dc997;
+}
+
+/*painting*/
+#painting {
+    background: #fff;
+    padding: 42px 0 50px 0;
+}
+
+#painting .box {
+    padding: 36px 19px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 2px solid #7b7a7a;
+    height: 200px;
+    position: relative;
+    background: #fafafa;
+}
+
+#painting .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: #2dc997;
+}
+
+#painting .icon a {
+    display: inline-block;
+}
+
+#painting .icon i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+}
+
+#painting .box:hover .icon {
+    background: #fff;
+    border: 2px solid #2dc997;
+}
