@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(travel_site_img/banner1.jpg);
+    background-size: cover;
+    aspect-ratio: 21/10;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.header img {
+    width: 170px;
+    float: left;
+}
+
+.login-btn {
+    width: 100px;
+    padding: 8px;
+    outline: none !important;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    float: right;
+    font-weight: 500;
+}
+
+.login-btn:hover {
+    cursor: pointer;
+    background-image: linear-gradient(#06a354, #0035c8);
+    color: rgb(249, 245, 245);
+    font-weight: 500;
+}
+
+.header h1 {
+    padding-top: 260px;
+    font-size: 55px;
+}
+
+.header p {
+    margin: 18px;
+}
+
+.input-group {
+    width: 90% !important;
+    max-width: 500px;
+    border-radius: 30px;
+    background: white;
+    margin: auto;
+    padding: 2px;
+    margin-top: 20px !important;
+}
+
+.form-control {
+    border: 0 !important;
+    border-radius: 35px 0 0 35px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+
+.input-group-text {
+    width: 100px;
+    background-image: linear-gradient(#00ff7e, #1f3d90);
+    border: none !important;
+    color: white !important;
+    /* padding: 0 35px */
+    border-radius: 30px !important;
+    /* box-shadow: none */
+    margin: 3px;
+}
+.input-group-text:hover{
+    background-image: linear-gradient(#4e3ef5, #b51adc);
+}
+.feature{
+    padding: 100px;
+}
+.feature h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.fea_img img{
+    width: 100%;
+}
+.price{
+    width: 100px;
+    height: 50px;
+    background-image: linear-gradient(#00ff7e, #1f3d90);
+    color: white;
+    font-weight: 700;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.16);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+}
+.fea_img{
+    position: relative;
+}
+.rating{
+    padding: 3px;
+    float: right;
+    background: white;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+
+.fea_detail{
+    padding: 20px;
+    text-align: justify;
+}
+.fea_detail h4{
+    font-weight: 600;
+    margin-top: 30px;
+}
+.fea_box{
+    box-shadow: 10px 5px 10px 5px rgba(13, 41, 251, 0.171);
+    margin-bottom: 30px;
+}
+.gallery{
+    padding: 50px;
+    background: #dedede;
+}
+.gallery h1{
+    text-align: center;
+    margin-bottom: 23px;
+}
+.gallery_box{
+    position: relative;
+    margin-bottom: 30px;
+}
+.gallery_box img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.gallery_box img:hover{
+    transform: scale(1.1);
+}
+.gallery_box h4{
+    display: block;
+    color: white;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 9px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner{
+    height: 80%;
+    background-image: url(travel_site_img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    aspect-ratio: 21/9;
+    padding-top: 14%;
+}
+.bann_high{
+    padding: 70px 0;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: white;
+}
+.book{
+    width: 120px;
+    padding: 8px;
+    outline: none !important;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    /* float: right; */
+    font-weight: 500;
+    margin-top: 20px;
+}
+.book:hover {
+    cursor: pointer;
+    background-image: linear-gradient(#06a354, #0035c8);
+    color: rgb(249, 245, 245);
+    font-weight: 500;
+}
+.user{
+    padding: 35px;
+    text-align: center;
+}
+.review{
+    text-align: center;
+    box-shadow: 0 0 10px 6px rgba(0, 27, 229, 0.171);
+    padding-bottom: 35px;
+}
+.review p{
+    padding: 50px 11px 11px 11px;
+}
+.user img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -43px 52px -18px 15%;
+}
+.user h1{
+    margin-bottom: 25px;
+}
+.review{
+    border-radius: 12px;
+}
+.footer{
+    padding: 100px 20px;
+    background-image: linear-gradient(#08080889, #23013c57);
+    color: white;
+}
+.footer_logo{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer p{
+    text-align: justify;
+    padding-right: 35px;
+    font-size: 14px;
+}
+.footer h4{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer .row .fa{
+    padding-right: 12px;
+    font-size: 18px;
+}
+.footer hr{
+    margin-top: 10px;
+    color: white;
+}
